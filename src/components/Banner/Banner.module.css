@@ -1,0 +1,16 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--azul-escuro);
+    color: white;
+}
+
+.banner .content {
+    margin: 20px;
+}
+
+.banner .foto {
+    height: 150px;
+    margin: 20px;
+}

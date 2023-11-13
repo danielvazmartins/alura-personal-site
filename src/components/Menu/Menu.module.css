@@ -1,0 +1,16 @@
+.menuBar {
+    background: #c7c4c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 60px;
+}
+
+.menuBar a {
+    color: green;
+}
+
+.menuBar a.active {
+    text-decoration: underline;
+}
