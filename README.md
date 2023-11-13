@@ -1,4 +1,4 @@
-# Alura Organo
+# Alura Site Pessoal
 Projeto desenvolvido acompanhando cursos da Formação de React (Explore React com JavaScript) da Alura
 
 ## Cursos
