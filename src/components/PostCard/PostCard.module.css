@@ -1,0 +1,28 @@
+.postCard {
+    display: flex;
+    flex-direction: column;
+    height: 260px;
+    width: 220px;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.postCard .capa img {
+    width: 100%;
+}
+
+.postCard .title {
+    flex: 1;
+    color: var(--azul-escuro);
+    font-size: 16px;
+    margin: 10px;
+}
+
+.postCard .button {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 25px;
+    background: var(--azul-medio);
+    color: var(--branco);
+    border-radius: 24px;
+}

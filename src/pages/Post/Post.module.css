@@ -1,0 +1,24 @@
+.postContent {
+
+}
+
+.postContent header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    height: 100px;
+}
+
+.postContent header img {
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+    position: absolute;
+}
+
+.postContent header .title {
+    font-size: 24px;
+    color: var(--cor-fonte-post);
+}
