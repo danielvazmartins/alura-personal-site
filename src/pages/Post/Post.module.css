@@ -1,7 +1,3 @@
-.postContent {
-
-}
-
 .postContent header {
     display: flex;
     justify-content: center;
@@ -21,4 +17,70 @@
 .postContent header .title {
     font-size: 24px;
     color: var(--cor-fonte-post);
+}
+
+.postContent .markdown h2,
+.postContent .markdown h3,
+.postContent .markdown h4,
+.postContent .markdown h5,
+.postContent .markdown h6 {
+    font-family: var(--fonte-secundaria);
+}
+
+.postContent .markdown {
+    padding: 20px;
+}
+
+.postContent .markdown h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.postContent .markdown h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+ 
+.postContent .markdown h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+ 
+.postContent .markdown p {
+    text-align: justify;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+ 
+.postContent .markdown a {
+    color: #0493d4;
+    text-decoration: underline;
+}
+ 
+.postContent .markdown img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px;
+}
+ 
+.postContent .markdown ul {
+    font-size: 16px;
+    padding: 0 20px;
+}
+ 
+.postContent .markdown ul > li {
+    margin-bottom: 10px;
+    list-style: disc;
+}
+ 
+.postContent .markdown pre,
+.postContent .markdown blockquote {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #eaeaea;
+    border-radius: 5px;
+}
+ 
+.postContent .markdown pre {
+    overflow-x: auto;
 }

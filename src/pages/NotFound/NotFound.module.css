@@ -1,0 +1,33 @@
+.notFoundContent {
+    text-align: center;
+    background: #041833;
+    padding: 20px 20px 100px 20px;
+}
+
+.notFoundContent .statusCode {
+    color:#1875E8;
+    font-family: var(--fonte-secundaria);
+    font-size: 64px;
+}
+
+.notFoundContent .statusMessage {
+    color: var(--branco);
+    font-size: 24px;
+    margin: 10px;
+}
+
+.notFoundContent p {
+    color: var(--branco);
+    font-size: 16px;
+}
+
+.notFoundContent Button {
+    position: absolute;
+    left: 20%;
+}
+
+.notFoundContent .img404 {
+    width: 160px;
+    position: absolute;
+    right: 50px;
+}

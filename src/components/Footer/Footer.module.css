@@ -1,0 +1,8 @@
+.footer {
+    background: var(--azul-escuro);
+    color: var(--branco);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
