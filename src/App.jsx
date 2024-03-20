@@ -14,9 +14,9 @@ function App() {
 			<Routes>
 				<Route path="/" element={<LayoutDefault></LayoutDefault>}>
 					<Route index element={<Home></Home>}></Route>
-					<Route path="post/:id" element={<Post></Post>}></Route>
 					<Route path="about" element={<About></About>}></Route>
 				</Route>
+				<Route path="/post/:id" element={<Post></Post>}></Route>
 				<Route path="*" element={<NotFound></NotFound>}></Route>
 			</Routes>
 		</BrowserRouter>
